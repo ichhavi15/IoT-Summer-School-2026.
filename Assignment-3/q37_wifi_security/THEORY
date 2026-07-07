@@ -1,0 +1,31 @@
+Q37: Wi-Fi Security for IoT
+Wi-Fi-enabled IoT devices are vulnerable to several network attacks because they are often continuously connected and may have limited security controls.
+
+--Common Wi-Fi Attack Vectors
+1. WPA2 Vulnerabilities:
+WPA2 is widely used, but weaknesses such as the KRACK (Key Reinstallation Attack) showed that flaws in the handshake process could be exploited under certain conditions. An attacker within wireless range may attempt to manipulate network communication, so devices and access points should always use updated firmware and security patches.
+
+2. Evil Twin Attacks
+In an evil twin attack, an attacker creates a fake Wi-Fi access point with a name similar or identical to a trusted network. An IoT device may connect to the fake network, allowing the attacker to intercept traffic or attempt credential theft.
+
+{Best Practices for Securing ESP32 Wi-Fi}
+
+|    ----Security Practice----    | Purpose                                                           |
+| Use WPA3                        | Provides stronger Wi-Fi protection than older security modes      |
+| Certificate Pinning / Validation| Helps verify that the ESP32 communicates with the intended server |
+| Use HTTPS/TLS                   | Encrypts data transmitted between the ESP32 and server            |
+| Update Firmware                 | Fixes known security vulnerabilities                              |
+| Use Strong Credentials          | Reduces password guessing and unauthorized access                 |
+| Enable PMF                      | Helps protect Wi-Fi management frames                             |
+
+ESP32 platforms support security features such as WPA3-Personal and Protected Management Frames (PMF). For server communication, TLS certificate verification should be used; pinning a trusted certificate or public key can provide stricter identity checking when operationally appropriate.
+
+--Why Hardcoding Passwords is Dangerous
+
+Hardcoding Wi-Fi passwords, API keys, or tokens directly in source code is dangerous because anyone who accesses the source repository or extracts firmware may discover them. If the same credential is deployed across many IoT devices, one leak can compromise the entire network. Hardcoded secrets are also difficult to rotate without updating software or firmware.
+
+Credentials should instead be stored using protected configuration, secure provisioning, environment-specific secrets, or secure storage mechanisms.
+
+--Conclusion
+
+IoT Wi-Fi security requires multiple layers of protection. Using WPA3 where supported, TLS certificate verification, secure credential storage, strong authentication, firmware updates, and avoiding hardcoded passwords can significantly reduce risk.
