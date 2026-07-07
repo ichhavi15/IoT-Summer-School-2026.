@@ -1,0 +1,16 @@
+Q40.QoS (Quality of Service) Levels in MQTT
+
+In MQTT, QoS (Quality of Service) defines how reliably a message is delivered between the sender and receiver.
+There are three QoS levels:
+1.QoS 0 – At Most Once
+The message is sent only once without any acknowledgment. If the message is lost due to a network problem, it is not sent again. It is the fastest level and uses minimum bandwidth.
+Example:Regular temperature updates where occasional data loss is acceptable.
+
+2.QoS 1 – At Least Once
+The sender keeps sending the message until it receives an acknowledgment.Therefore, the message is guaranteed to arrive, but duplicate messages may occur.It provides a good balance between reliability and performance.
+
+3.QoS 2 – Exactly Once
+The message is guaranteed to arrive exactly one time. It uses a multi-step acknowledgment process, making it the most reliable but also the slowest and most bandwidth-consuming level.
+
+Choice for IoT Water Level Monitoring System:
+I would choose QoS 1 (At Least Once) because water-level data and alerts should not be lost, especially when the tank is full or nearly empty. Duplicate messages can be handled by the application, while QoS 1 provides better reliability with less communication overhead than QoS 2. Therefore, it is a practical choice for water level monitoring.
