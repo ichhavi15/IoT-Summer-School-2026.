@@ -1,0 +1,24 @@
+Q39. What is an IoT Gateway?
+
+An IoT Gateway is a device that acts as a bridge between IoT sensor nodes and the cloud.
+Sensor nodes collect data such as temperature, humidity, motion, light, or air quality.
+The gateway receives this data, processes or filters it, and sends it to the cloud through the Internet.
+The gateway is important because IoT sensors may use short-range protocols that cannot directly communicate with cloud servers.
+It can also perform protocol conversion, data aggregation, security, and edge processing.
+
+SIMPLE DIAGRAM--
+[ IoT Sensor Nodes ] → [ IoT Gateway ] → [ Cloud ] → [ User Application ]
+
+Temperature Sensor ESP32 / Raspberry Pi Cloud Server Mobile/Web App Humidity Sensor
+Motion Sensor
+
+Protocols typically used at each layer:
+
+1.Sensor Nodes → Gateway:
+--Zigbee, Bluetooth Low Energy (BLE), Z-Wave, LoRa, Wi-Fi
+2.Gateway → Cloud:
+--MQTT, HTTP/HTTPS, CoAP, AMQP over Wi-Fi, Ethernet, 4G, or 5G
+3.Cloud → User Application:
+--HTTP/HTTPS, REST API, WebSocket, MQTT
+
+Example:A temperature sensor sends readings to an IoT gateway using Zigbee.The gateway forwards the data to the cloud using MQTT over Wi-Fi.Finally, the user views real-time temperature data through a mobile or web application.
