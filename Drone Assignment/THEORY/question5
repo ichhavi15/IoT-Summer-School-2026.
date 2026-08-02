@@ -1,0 +1,91 @@
+Ques1: What is a drone (UAV) ? Explain its definition, history, and evolution.
+→  A drone or UAV (unmanned Aerial vehicle) is an aircraft that flies without a pilot inside it. It is controlled by a remote or works automatically using software and sensors. The first drones were mainly used by the military for surveillance. Today, drones are used in farming, photography, delivery, and rescue operations. With new technology like GPS, cameras, and AI, drones have become smarter, faster, and more useful.
+Ques2: Five applications of drones?
+→ 1. Aerial photography and videography - Used for making movies, weddings, and events. 
+   2. Agriculture - Used for crop monitoring and pesticide spraying.
+   3. Delivery Services - Used to deliver medicines and small packages.
+   4. Search and rescue operations - Helps find missing people during floods, forests, or disasters.
+   5. Land surveying and mapping - Used to create maps and inspect land or buildings.
+
+Ques3:  Differentiate:
+(a). UAV vs Drone
+               UAV: 
+→ UAV means Unmanned Aerial Vehicle.
+→ It refers only to the flying vehicle.
+→ Mostly used in technical and military fields.
+             Drone:
+→ Drone is the common name for a UAV.
+→ It includes the UAV and its control system.
+→ Used in everyday language.
+(b). Fixed-wing vs Multirotor
+          Fixed-wing: 
+→ Looks like an airplane.
+→ flies for a longer time.
+→ cannot hover in one place.
+→ Used for mapping and surveying.
+          Multirotor: 
+→ Has multiple propellers.
+→ Shorter flight time.
+→ can hover easily.
+→ Used for photography and inspection
+(c). Quadcopter vs Hexacopter
+         Quadcopter:
+→ Has 4 motors.
+→ Lower cost and lightweight.
+→ Carries less weight.
+→ Less stable than a hexacopter.
+         Hexacopter:
+→ Has 6 motors.
+→ More expensive and heavier.
+→ can carry more weight.
+→ More stable and safer.
+Ques4: How does a quadcopter fly?
+A quadcopter flies using 4 brushless motors and 4 propellers.
+→ The propellers spin and produce ligt, which pushes the drone upward.
+→ Gravity pulls the drone downward.
+→ When lift is greater than gravity, the drone takes off.
+→ Thrust is the force that moves the drone up, down, or forward.
+→ Drag is the air resistance that slows down the drone.
+→ Two propellers rotate clockwise (CW).
+→ The other two rotate counter-clockwise (CCW).
+→ CW and CCW rotation balance the drone and stop it from spinning.
+→ The flight controller changes the speed of each motor to control movement.
+→ By increasing or decreasing motor speed, the drone can take off, hover, move in different directions, and land.
+                    
+Ques5: Explain how a drone performs take-off, landing, hovering, move forward, move backward, move left, move right, and rotate (yaw) 
+
+
+
+1.Take - off:
+→ All four motors spin faster.
+→ The drone goes upward.
+Landing:
+→ All motors slow down.
+→ The drone comes down safely.
+Hovering:
+→ All four motors spin at the same speed.
+→ The drone stays at one place in the air.
+Move Forward:
+→ Back motors spin faster than front motors.
+→ The drone moves forward.
+Move Backward:
+→ Front motors spin faster than back motors.
+→ The drone moves backward.
+Move Left:
+→ Right-side motors spin faster.
+→ The drone moves left.
+Move Right:
+→ Left-side motors spin faster.
+→ The drone moves right.
+Rotate (Yaw):
+→ CW and CCW motors change their speed.
+→ All four motors spin faster.                              
+                                       ← Left                Right →
+                                                   ⬤ Hover
+                                                         ↓
+                                                    Landing
+                                Forward ↑
+                                Backward ↓
+                                Yaw ↺ (Left Turn)
+                                Yaw ↻ (Right Turn)
+
