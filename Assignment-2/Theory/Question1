@@ -1,0 +1,9 @@
+Ques1:
+You are building a smart irrigation system that must monitor soil moisture, control a water pump,
+and send data to a mobile application every 5 seconds. You have both an Arduino UNO and an ESP32.
+hich controller would you choose and why? Would your answer change if internet connectivity was not required? 
+
+Ans – For this project, I would choose the ESP32 because it has built-in Wi-Fi, which makes it easy to send soil 
+moisture data to a mobile app every 5 seconds. It is also faster and has more memory than the Arduino UNO, so it can 
+control the water pump and send data at the same time. If internet connectivity is not required, I would use the Arduino 
+UNO because it is simpler, cheaper, and sufficient for controlling the pump based on soil moisture. It is a good choice for offline irrigation systems.
