@@ -1,0 +1,6 @@
+Ques14:
+Compare polling and interrupt-based programming in embedded systems. In which situations would interrupts significantly improve the
+performance of an IoT device? 
+Ans – In polling, the microcontroller continuously checks whether an event has occurred, which wastes CPU time. In interrupts, the
+microcontroller performs other tasks and responds only when an event occurs. Interrupts are better for time-critical applications like fire
+alarms, motion detection, or emergency buttons because they provide a faster response.
