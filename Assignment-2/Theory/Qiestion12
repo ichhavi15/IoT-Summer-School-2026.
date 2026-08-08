@@ -1,0 +1,6 @@
+Ques12:
+Your IoT device must operate continuously for five years without human intervention. What changes would you make to both the hardware and 
+software to improve long-term reliability? 
+Ans – To improve long-term reliability, I would use high-quality components, a stable power supply, and protect the circuit from dust and
+moisture using a proper enclosure. In software, I would use a watchdog timer, proper error handling, and support OTA (Over-the-Air) updates
+so bugs can be fixed without replacing the device. 
