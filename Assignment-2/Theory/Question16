@@ -1,0 +1,21 @@
+Ques16:
+Create a flowchart for an IoT system that stores sensor readings locally whenever Wi-Fi is unavailable and automatically uploads the stored
+data once the connection is restored. Mention all the programs/protocols/I-O used in the system. 
+Ans –
+                                                                   Start
+                                                                      ↓
+                                                         Read Sensor Data
+                                                                      ↓
+                                                        Is Wi-Fi Available?
+                                              ┌───────┴────────┐
+                                              Yes                                             No
+                                              ↓                                                ↓
+                                      Upload Data                        Store Data Locally
+                                              ↓                                                ↓
+                                         Continue                            Check Wi-Fi Again
+                                                  └───────┬───────┘
+                                                                          ↓
+                                                         Upload Stored Data
+                                                                          ↓
+                                                                        End
+Protocols/I-O used: Wi-Fi, MQTT/HTTP, GPIO, I²C, SPI (if SD card is used). 
