@@ -1,0 +1,6 @@
+Ques13:
+Can an IoT system be considered "smart" if it does not use Artificial Intelligence? Justify your answer with suitable examples. What
+differentiates “smart” from “intelligent”? 
+Ans – Yes, an IoT system can be smart even without AI. It can collect sensor data, communicate with other devices, and make decisions using
+predefined rules. For example, a smart irrigation system that automatically turns on the pump when the soil is dry is smart, even though it
+does not use AI. AI makes the system more intelligent by helping it learn and make better decisions over time. 
