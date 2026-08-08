@@ -1,0 +1,6 @@
+Ques11:
+An ESP32 uploads sensor data to the cloud every minute. The internet connection fails for 12 hours. Design a strategy that ensures no 
+important data is permanently lost. 
+Ans – If the internet is unavailable, I would store all sensor readings in the ESP32's flash memory or an SD card with a timestamp. The 
+ESP32 will keep checking for the internet connection. Once Wi-Fi is restored, it will automatically upload all the stored data to the cloud
+and then clear the local storage. This ensures that no important data is lost.
