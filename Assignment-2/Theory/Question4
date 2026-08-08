@@ -1,0 +1,6 @@
+Ques4:
+An ESP32-based weather station must operate on battery power for six months without maintenance. What hardware and software modifications 
+would you make to maximize battery life? 
+Ans – To make the battery last for six months, I would use Deep Sleep mode so the ESP32 wakes up only when needed. I would also use low-power
+sensors, disable Bluetooth, turn on Wi-Fi only while sending data, and use a high-capacity battery with an efficient voltage regulator. 
+These changes reduce power consumption and increase battery life. 
