@@ -1,0 +1,6 @@
+Ques10:
+Your ESP32 must simultaneously interface with a DHT11 sensor, an ultrasonic sensor, an OLED display, a relay module, and a soil moisture
+sensor. What hardware or software conflicts could occur, and how would you solve them? 
+Ans – When connecting multiple devices to an ESP32, problems like GPIO pin conflicts, high power consumption, and communication issues may
+occur. These can be solved by using different GPIO pins, an external power supply for high-power devices, and proper programming to manage
+all sensors efficiently. 
