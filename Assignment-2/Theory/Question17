@@ -1,0 +1,23 @@
+Ques17:
+Draw a flowchart showing how an ESP32 performs an OTA (Over-the-Air) firmware update, including error handling if the update fails. 
+Ans – 
+                                                                       Start
+                                                                          ↓
+                                                        Check for New Firmware
+                                                                           ↓
+                                                            Is Update Available?
+                                                   ┌───────┴────────┐
+                                                  No                                             Yes
+                                                   ↓                                                ↓
+                                           Run Current                         Download Update
+                                            Firmware                                         ↓
+                                                                                                 Verify File
+                                                                                                       ↓
+                                                                                     Installation Successful?
+                                                                             ┌────────┴────────┐
+                                                                            Yes                                               No
+                                                                             ↓                                                  ↓
+                                                                   Restart Device                        Keep Old Firmware
+                                                                             ↓                                                  ↓
+                                                                           End                                              End
+This process ensures that if the update fails, the ESP32 continues running the old firmware safely. 
