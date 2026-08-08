@@ -1,0 +1,5 @@
+Ques9:
+If an attacker gains access to your IoT device through the Wi-Fi network, what kinds of attacks could they perform? Suggest at least five
+methods to improve the security of the system (with applicable solutions, do not cite far-fetched ideas) 
+Ans : If someone gets access to the Wi-Fi network, they can steal data or control the device. To improve security, I would use a strong
+Wi-Fi password, WPA2/WPA3 encryption, HTTPS/MQTT with TLS, and keep the firmware updated regularly. 
