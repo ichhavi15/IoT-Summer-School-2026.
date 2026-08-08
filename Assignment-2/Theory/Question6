@@ -1,0 +1,5 @@
+Ques6:
+You need to measure the average temperature of a classroom using only one sensor. Where would you place the sensor and why? Explain how 
+poor placement could affect the accuracy of your measurements. Assume the classroom to be a square-base cuboid of side length “a” and height“b”. 
+Ans – I would place the sensor at the center of the classroom at about 1.5 meters above the floor. It should be away from windows, doors, 
+fans, and ACs because these can affect the temperature reading. This position gives the most accurate average temperature of the room.
