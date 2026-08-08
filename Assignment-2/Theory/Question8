@@ -1,0 +1,5 @@
+Ques8:
+Draw the complete architecture/block diagram of your IoT project, beginning from the sensor and ending at the user interface. Identify every
+possible point where a failure could occur and suggest one solution for each. 
+Ans – The system consists of sensors → ESP32 → Wi-Fi → Cloud → Mobile App/Dashboard. The sensors collect data, ESP32 processes it, and the
+data is sent to the cloud for monitoring. If any sensor or Wi-Fi fails, the system should store data temporarily and send it later. 
