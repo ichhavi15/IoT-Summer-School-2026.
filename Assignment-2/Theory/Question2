@@ -1,0 +1,7 @@
+Ques2:
+A smart factory contains 500 sensors distributed across a 2 km area. Compare Wi-Fi, Bluetooth, LoRa, and MQTT-based communication. 
+Which protocol or combination of protocols would you choose and why? 
+Ans – For a factory with 500 sensors over a 2 km area, I would choose LoRa + MQTT. Wi-Fi and Bluetooth have a short range and would 
+need many access points. LoRa can cover long distances with low power consumption, making it suitable for large factories. MQTT can then
+\send the collected data from the gateway to the cloud efficiently. This combination is reliable, cost-effective, and ideal for industrial 
+IoT 
