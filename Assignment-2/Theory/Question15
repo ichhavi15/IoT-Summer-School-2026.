@@ -1,0 +1,7 @@
+Ques15:
+Every engineering design involves trade-offs. Looking at your own IoT project, identify three design decisions where you sacrificed one
+aspect (such as cost, speed, power, accuracy, or complexity) to improve another. Explain whether you believe those trade-offs were justified. 
+Ans – I used ESP32 instead of Arduino UNO, which increased the cost but provided built-in Wi-Fi and better performance.
+I used multiple sensors, which improved accuracy but made the circuit more complex.
+I uploaded data at regular intervals instead of continuously, which reduced power and internet usage but slightly delayed updates.
+These trade-offs were justified because they improved the overall performance and reliability of the system
