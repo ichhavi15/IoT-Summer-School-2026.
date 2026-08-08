@@ -1,0 +1,5 @@
+A temperature sensor suddenly starts showing impossible values (e.g., –120°C or 300°C). How you would determine whether the problem lies in
+the sensor, wiring, power supply, ADC, or software. 
+Ans – I would first check the wiring for loose connections. Then I would verify the power supply using a multimeter. If the problem 
+continues, I would replace the sensor with a new one. Next, I would check the ADC pin and finally review the software, including the sensor
+library, pin number, and calibration. By checking each part one by one, I can find the exact cause of the problem.
