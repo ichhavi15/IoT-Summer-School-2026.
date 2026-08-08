@@ -1,0 +1,5 @@
+Ques5:
+An automatic braking system in a vehicle requires communication with almost zero delay. Which communication method would you choose and why? 
+Ans – I would choose CAN Bus because it provides very fast and reliable communication with almost no delay. It is specially designed for 
+vehicles and has built-in error detection. Wi-Fi and Bluetooth are not suitable because they can have delays or connection issues.
+Therefore, CAN Bus is the safest choice for an automatic braking system. 
